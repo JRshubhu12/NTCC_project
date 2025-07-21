@@ -1,0 +1,55 @@
+.about-container {
+  min-height: 100vh;
+
+  /* Background image */
+  background-image: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1470&q=80');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* Overlay with dark transparent layer for text readability */
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.about-container::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+  z-index: 1;
+}
+
+.about-card {
+  position: relative; /* To appear above overlay */
+  z-index: 2;
+
+  background-color: rgba(255, 255, 255, 0.95);
+  max-width: 700px;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.about-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #0d1b2a;
+  font-weight: 700;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 1.2px;
+}
+
+.about-text {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 15px;
+  color: #1b263b;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,40 @@
+.custom-navbar {
+  background: linear-gradient(90deg, #0f2027, #203a43, #2c5364);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  padding: 10px 0;
+}
+
+.brand-section {
+  cursor: pointer;
+}
+
+.logo-icon {
+  font-size: 28px;
+  color: #ffc107;
+  margin-right: 10px;
+}
+
+.brand-text {
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.nav-buttons .btn {
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.nav-buttons .btn:hover {
+  background-color: #ffc107;
+  color: #000;
+  border-color: #ffc107;
+}
+
+.custom-toggler {
+  border-color: white;
+}

@@ -1,0 +1,37 @@
+.register-container {
+  background-image: url("https://images.unsplash.com/photo-1521737604893-d14cc237f11d");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-card {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 450px;
+}
+
+.register-card h2 {
+  font-weight: bold;
+  color: #28a745;
+}
+
+.register-card .form-control {
+  border-radius: 10px;
+}
+
+.register-card .btn-success {
+  background-color: #28a745;
+  border: none;
+  font-weight: 600;
+}
+
+.register-card .btn-success:hover {
+  background-color: #218838;
+}

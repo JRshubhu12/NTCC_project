@@ -1,0 +1,36 @@
+.homepage-container {
+  min-height: 100vh;
+  background-image: url("https://static.vecteezy.com/system/resources/previews/020/353/066/large_2x/career-path-work-opportunity-or-choices-choosing-the-right-path-business-challenge-or-decision-point-concept-business-people-running-on-career-path-to-choose-different-direction-for-their-job-vector.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-top: 70px;
+  color: #fff;
+}
+
+.profile-card {
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.profile-card:hover {
+  transform: translateY(-5px);
+}
+
+.action-card {
+  background: rgba(255, 255, 255, 0.95);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.action-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.get-recommendations-btn:hover {
+  background-color: #f5c518;
+  color: black;
+  border: none;
+}

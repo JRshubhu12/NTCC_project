@@ -1,0 +1,48 @@
+/* Full-page flex layout with background image and gradient overlay */
+.upload-resume-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  /* Background image + semi-transparent gradient overlay */
+  background: 
+    linear-gradient(to right, rgba(240, 244, 255, 0.85), rgba(255, 238, 242, 0.85)),
+    url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1470&q=80');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+}
+
+/* Center the form vertically and horizontally */
+.upload-resume-page .row {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Card animation */
+.card {
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* File input cursor */
+input[type="file"] {
+  cursor: pointer;
+}
+
+/* Footer Style (optional) */
+.footer {
+  background-color: #0b3d91;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: auto;
+  font-weight: 500;
+}
